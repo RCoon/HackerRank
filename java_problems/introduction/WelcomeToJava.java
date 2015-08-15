@@ -1,4 +1,4 @@
-package Java.Introduction;
+package java_problems.introduction;
 
 /*
  * Welcome to the world of Java! Just print "Hello World." and "Hello Java."
