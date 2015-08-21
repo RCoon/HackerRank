@@ -1,7 +1,5 @@
 package java_problems.strings;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.Scanner;
 
 /*
@@ -28,9 +26,12 @@ class JavaRegex {
     public static void main(String []argh) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter IP addresses to test, each followed "
-        				   + "by a space.");
+        				   + "by a space.  Enter \"end\" to quit.");
         while(in.hasNext()) {
             String IP = in.next();
+            if (IP.equals("end")) {
+            	break;
+            }
             System.out.println(IP.matches(new myRegex().pattern));
         }
         in.close();
