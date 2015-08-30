@@ -19,6 +19,7 @@ public class TwoDimensionalArray {
                 largest = Math.max(largest, total);
             }
         }
+        sc.close();
         System.out.println(largest);
     }
     
