@@ -40,10 +40,10 @@ public class PlusMinus {
         int numPos = 0;
         int numNeg = 0;
         int numZero = 0;
-        int num;
+        //int num;
         
         for (int i = 0; i < numElements; i++) {
-            num = sc.nextInt();
+            int num = sc.nextInt();
             
             if (num > 0) {
                 numPos++;
