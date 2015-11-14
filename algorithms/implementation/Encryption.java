@@ -73,8 +73,6 @@ public class Encryption {
 			}
 		}
 		
-		//printCharArray(array);
-		
 		StringBuilder sb = new StringBuilder();
 		
 		for (int i = 0; i < columns; i++) {
@@ -89,15 +87,5 @@ public class Encryption {
 		}
 		
 		System.out.println(sb.toString());
-	}
-	
-	private static void printCharArray(char[][] array) {
-		
-		for (int i = 0; i < array.length; i++) {
-			for (int j = 0; j < array[i].length; j++) {
-				System.out.print(array[i][j]);
-			}
-			System.out.println();
-		}
 	}
 }
