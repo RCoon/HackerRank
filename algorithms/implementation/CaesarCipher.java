@@ -43,7 +43,9 @@ public class CaesarCipher {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        int stringLength = sc.nextInt();
+        @SuppressWarnings("unused")
+		int stringLength = sc.nextInt();
+        
         String input = sc.next();
         int shift = sc.nextInt();
         
