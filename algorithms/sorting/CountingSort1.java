@@ -36,7 +36,7 @@ import java.util.Scanner;
  */
 public class CountingSort1 {
 
-public static void main(String[] args) {
+	public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
         int listSize = sc.nextInt();
