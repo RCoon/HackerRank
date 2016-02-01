@@ -9,11 +9,11 @@ import java.util.Scanner;
  * visit the nodes level by level from left to right.
  * For example:
  * 
- *      3
- *     / \
- *    5   2
- *   / \ /
- *  1  4 6
+ *       3
+ *     /   \
+ *    5     2
+ *   / \   /
+ *  1   4 6
  * For the above tree, the level order traversal is 3 -> 5 -> 2 -> 1 -> 4 -> 6.
  * 
  * Input Format: 
