@@ -1,0 +1,11 @@
+# Display the first 20 lines of an input file.  Input file provided via STDIN.
+head -n 20
+
+# Display the first 20 characters of an input file.
+head -c 20
+
+# Display the last 20 lines of an input file.
+tail -n 20
+
+# Display the last 20 characters of an input file.
+tail -c 20
