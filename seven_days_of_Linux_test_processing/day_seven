@@ -1,0 +1,20 @@
+# From the given list, remove the names that contain 'a' or 'A' in them. 
+# If there are no names left after removing these characters, you should display a blank line.
+grep -iv 'a'
+
+# Output only the palindromes from the original list of words. Their ordering should be the
+# same as in the original list.
+while read word; do
+    drow=`echo $word | rev | tr -d "\r"`
+    if [ $(echo $word | tr -d "\r") == $drow ]; then
+        echo "$word"
+    fi
+done
+
+# Output T lines, each containing the factorial for the corresponding n input.
+read
+while read -r line || [[ -n "$line" ]]
+do
+    n=`echo $line|tr -d '[[:space:]]'`
+    echo `seq -s "*" 1 $n | bc | tr -d '\\\r\n'`
+done
